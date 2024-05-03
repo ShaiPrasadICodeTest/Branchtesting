@@ -7,7 +7,7 @@ pipeline {
                 // Path to your shell script file
                 script {
                     // Specify the path to your shell script file
-                    sh '/home/ec2-user/trigger.sh'
+                    sudo sh '/home/ec2-user/trigger.sh'
                     
                 }
             }
